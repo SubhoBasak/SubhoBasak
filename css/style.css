@@ -1,0 +1,151 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+@font-face {
+  font-family: Lobster;
+  src: url(../fonts/Lobster.ttf);
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Lobster;
+}
+.navbar {
+  height: 2.8rem;
+  --bs-bg-opacity: 0.95;
+}
+.navbar .navbar-brand {
+  font-size: 24px;
+  font-family: Lobster;
+}
+.navbar .container {
+  max-width: 1000px;
+  padding: 0;
+}
+.navbar .active {
+  border-bottom: 2px solid #fff !important;
+}
+.navbar .navbar-toggler {
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  max-width: 28px;
+  max-height: 28px;
+}
+.navbar .navbar-toggler-icon {
+  width: 20px;
+  height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  margin: 2px;
+}
+.offcanvas .active {
+  --bs-bg-opacity: 0.1;
+  border-radius: 8px;
+  background-color: rgba(
+    var(--bs-primary-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+}
+.top-bg {
+  --bs-bg-opacity: 0.1;
+}
+.top-img {
+  max-width: 75%;
+  object-fit: scale-down;
+}
+.rotate-icon::before {
+  transform: scale(-1);
+}
+.shortcut-img {
+  width: 90%;
+  max-width: 400px;
+  object-fit: scale-down;
+}
+.shortcut-container {
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+}
+.short-cut-link {
+  background-color: #ecf4f8;
+  width: 90%;
+  min-height: 10rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.short-cut-link i {
+  font-size: 36px;
+  font-weight: lighter;
+  transition: 1.5s ease all;
+}
+.short-cut-link:hover i {
+  transform: translateY(-15px);
+}
+.half-banner img {
+  height: fit-content;
+  max-width: 90%;
+  object-fit: scale-down;
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+.half-banner table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.half-side-svg {
+  max-width: 250px !important;
+  object-fit: scale-down;
+}
+.full-img {
+  min-width: 95%;
+  max-width: 95%;
+  max-height: 80vh;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.gallery a {
+  margin: 0.5rem;
+}
+.gallery img {
+  width: 22vw;
+  height: 22vw;
+  min-width: 22vw;
+  min-height: 22vw;
+  max-width: 22vw;
+  max-height: 22vw;
+  object-fit: cover;
+}
+@media screen and (max-width: 600px) {
+  .shortcut-container {
+    flex-direction: column;
+  }
+  .gallery {
+    width: 100%;
+    padding: 0;
+  }
+  .gallery a {
+    margin: 0.1rem;
+  }
+  .gallery img {
+    width: 45vw;
+    height: 45vw;
+    min-width: 45vw;
+    min-height: 45vw;
+    max-width: 45vw;
+    max-height: 45vw;
+    object-fit: cover;
+  }
+}
