@@ -1,9 +1,10 @@
-It's a simple static website written with HTML, CSS and JS with the help of Bootstrap 5.
+# Hello World! I'm Subho.
 
-This project follows a typical web structure:
+---
 
-- HTML files are in the root folder
-- CSS files are inside the css folder
-- JS files are inside the js folder
-- Images are inside the images folder
-- SVG files are inside the svgs folder
+_About Myself -_
+`Geeky, nerdy, crazy person. Excited about monster trucks with rocket booster, robots with laser gun and family car size space ship for inter-galaxy tour.`
+
+---
+
+Visit [my website](https://subhobasak.github.io/SubhoBasak/) to know more
