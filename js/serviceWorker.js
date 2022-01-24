@@ -30,7 +30,7 @@ self.addEventListener("fetch", (event) => {
 });
 
 self.addEventListener("activate", (event) => {
-  var cacheWhitelist = ["gs-website-pwa"];
+  var cacheWhitelist = ["subho-website-pwa"];
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
