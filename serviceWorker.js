@@ -8,6 +8,7 @@ var urlsToCache = [
   "gallery2.html",
   "contact.html",
   "sitemap.html",
+  "404.html",
 ];
 
 self.addEventListener("install", (event) => {
