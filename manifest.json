@@ -20,7 +20,7 @@
     }
   ],
   "id": "/",
-  "start_url": "SubhoBasak/js/",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#212529",
   "background_color": "#ffffff",
