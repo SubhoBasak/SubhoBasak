@@ -1,13 +1,13 @@
 var CACHE_NAME = "gs-website-pwa";
 var urlsToCache = [
-  "/index.html",
-  "/about.html",
-  "/education.html",
-  "/skills.html",
-  "/gallery.html",
-  "/gallery2.html",
-  "/contact.html",
-  "/sitemap.html",
+  "/SubhoBasak/index.html",
+  "/SubhoBasak/about.html",
+  "/SubhoBasak/education.html",
+  "/SubhoBasak/skills.html",
+  "/SubhoBasak/gallery.html",
+  "/SubhoBasak/gallery2.html",
+  "/SubhoBasak/contact.html",
+  "/SubhoBasak/sitemap.html",
 ];
 
 self.addEventListener("install", (event) => {
