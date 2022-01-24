@@ -1,4 +1,4 @@
-var CACHE_NAME = "gs-website-pwa";
+var CACHE_NAME = "subho-website-pwa";
 var urlsToCache = [
   "/SubhoBasak/index.html",
   "/SubhoBasak/about.html",
