@@ -1,13 +1,13 @@
 var CACHE_NAME = "subho-website-pwa";
 var urlsToCache = [
-  "/SubhoBasak/index.html",
-  "/SubhoBasak/about.html",
-  "/SubhoBasak/education.html",
-  "/SubhoBasak/skills.html",
-  "/SubhoBasak/gallery.html",
-  "/SubhoBasak/gallery2.html",
-  "/SubhoBasak/contact.html",
-  "/SubhoBasak/sitemap.html",
+  "index.html",
+  "about.html",
+  "education.html",
+  "skills.html",
+  "gallery.html",
+  "gallery2.html",
+  "contact.html",
+  "sitemap.html",
 ];
 
 self.addEventListener("install", (event) => {
