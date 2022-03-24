@@ -5,9 +5,7 @@ var urlsToCache = [
   "education.html",
   "skills.html",
   "gallery.html",
-  "gallery2.html",
   "contact.html",
-  "sitemap.html",
   "404.html",
 ];
 

@@ -118,14 +118,20 @@ h5 {
 }
 .gallery a {
   margin: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #666;
+  text-align: center;
 }
 .gallery img {
-  width: 22vw;
-  height: 22vw;
-  min-width: 22vw;
-  min-height: 22vw;
-  max-width: 22vw;
-  max-height: 22vw;
+  width: 18vw;
+  height: 10vw;
+  min-width: 18vw;
+  min-height: 10vw;
+  max-width: 18vw;
+  max-height: 10vw;
   object-fit: cover;
 }
 .skill-badge img {
