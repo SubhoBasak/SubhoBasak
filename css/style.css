@@ -117,6 +117,9 @@ h5 {
   border-radius: 12px;
 }
 .gallery a {
+  width: 18vw;
+  min-width: 18vw;
+  max-width: 18vw;
   margin: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -133,6 +136,10 @@ h5 {
   max-width: 18vw;
   max-height: 10vw;
   object-fit: cover;
+}
+.gallery p{
+  max-width: 95%;
+  margin: auto;
 }
 .skill-badge img {
   max-width: 48px;
@@ -155,6 +162,9 @@ h5 {
     padding: 0;
   }
   .gallery a {
+    width: 45vw;
+    min-width: 45vw;
+    max-width: 45vw;
     margin: 0.1rem;
   }
   .gallery img {
